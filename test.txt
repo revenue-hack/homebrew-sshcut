@@ -1,0 +1,12 @@
+Host test
+HostName 11.111.11.111
+User test
+Port 21
+PreferredAuthentications publickey
+IdentityFile ~/.ssh/test.pem
+Host test1
+HostName 22.222.22.222
+User test2
+Port 21
+PreferredAuthentications publickey
+IdentityFile ~/.ssh/test2.pem
